@@ -1,0 +1,17 @@
+E:\NET8\SupportProjs\DLLs\net8.0-windows\Orion.DataVisualization.deps.json
+E:\NET8\SupportProjs\DLLs\net8.0-windows\Orion.DataVisualization.dll
+E:\NET8\SupportProjs\DLLs\net8.0-windows\Orion.DataVisualization.pdb
+E:\NET8\SupportProjs\Orion.DataVisualization\obj\Debug\net8.0-windows\Orion.DataVisualization.csproj.AssemblyReference.cache
+E:\NET8\SupportProjs\Orion.DataVisualization\obj\Debug\net8.0-windows\Orion.DataVisualization.Properties.Resources.resources
+E:\NET8\SupportProjs\Orion.DataVisualization\obj\Debug\net8.0-windows\Orion.DataVisualization.csproj.GenerateResource.cache
+E:\NET8\SupportProjs\Orion.DataVisualization\obj\Debug\net8.0-windows\Orion.DataVisualization.GeneratedMSBuildEditorConfig.editorconfig
+E:\NET8\SupportProjs\Orion.DataVisualization\obj\Debug\net8.0-windows\Orion.DataVisualization.csproj.CoreCompileInputs.cache
+E:\NET8\SupportProjs\Orion.DataVisualization\obj\Debug\net8.0-windows\Orion.DataVisualization.sourcelink.json
+E:\NET8\SupportProjs\Orion.DataVisualization\obj\Debug\net8.0-windows\Orion.DataVisualization.csproj.CopyComplete
+E:\NET8\SupportProjs\Orion.DataVisualization\obj\Debug\net8.0-windows\Orion.DataVisualization.dll
+E:\NET8\SupportProjs\Orion.DataVisualization\obj\Debug\net8.0-windows\refint\Orion.DataVisualization.dll
+E:\NET8\SupportProjs\Orion.DataVisualization\obj\Debug\net8.0-windows\Orion.DataVisualization.pdb
+E:\NET8\SupportProjs\Orion.DataVisualization\obj\Debug\net8.0-windows\ref\Orion.DataVisualization.dll
+E:\NET8\OrionX_14.x\Bin\Debug\net8.0-windows\Orion.DataVisualization.deps.json
+E:\NET8\OrionX_14.x\Bin\Debug\net8.0-windows\Orion.DataVisualization.dll
+E:\NET8\OrionX_14.x\Bin\Debug\net8.0-windows\Orion.DataVisualization.pdb

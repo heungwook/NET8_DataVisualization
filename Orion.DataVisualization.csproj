@@ -1,0 +1,79 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+	  <TargetFramework>net8.0-windows</TargetFramework>
+	<GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+    <LangVersion>10.0</LangVersion>
+    <OutputType>Library</OutputType>
+    <UseVSHostingProcess>False</UseVSHostingProcess>
+    <NoStdLib>True</NoStdLib>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DefineConstants>CODE_ANALYSIS_BASELINE;FEATURE_LEGACYSURFACEAREA;FEATURE_UTF32;FEATURE_UTF7;WINFORMS_CONTROL;VERSION_410;VERSION_450;VERSION_451;VERSION_500;VERSION_550;VS2005;VERSION_551;MS_ROSETTA;MS_ROSETTA2;SQLRS_CONTROL;VS_DESIGN_TIME;TRACE;RETAIL;WIN32</DefineConstants>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <UseWindowsForms>true</UseWindowsForms>
+      <UseWPF>true</UseWPF>
+      <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+	  <SignAssembly>True</SignAssembly>
+	  <AssemblyOriginatorKeyFile>Orion.DataVisualization.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DefineConstants>TRACE;VS_BUILD;Microsoft_CONTROL;CODE_ANALYSIS_BASELINE;FEATURE_LEGACYSURFACEAREA;FEATURE_UTF32;FEATURE_UTF7;WINFORMS_CONTROL;VERSION_410;VERSION_450;VERSION_451;VERSION_500;VERSION_550;VS2005;VERSION_551;MS_ROSETTA;MS_ROSETTA2;SQLRS_CONTROL;VS_DESIGN_TIME;RETAIL;WIN32;_DISABLE_ProcessModeRegions</DefineConstants>
+	  <DebugSymbols>true</DebugSymbols>
+	  <OutputPath>$(SolutionDir)Bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DefineConstants>TRACE;VS_BUILD;Microsoft_CONTROL;CODE_ANALYSIS_BASELINE;FEATURE_LEGACYSURFACEAREA;FEATURE_UTF32;FEATURE_UTF7;WINFORMS_CONTROL;VERSION_410;VERSION_450;VERSION_451;VERSION_500;VERSION_550;VS2005;VERSION_551;MS_ROSETTA;MS_ROSETTA2;SQLRS_CONTROL;VS_DESIGN_TIME;RETAIL;WIN32;_DISABLE_ProcessModeRegions</DefineConstants>
+	  <OutputPath>$(SolutionDir)Bin\Release\</OutputPath>
+	  <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Update="WinForm\ChartWinControl.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Common\General\SubAxis.cs" />
+    <Compile Remove="Sample\BarChart_Sample\BarChart_Sample\Form1.cs" />
+    <Compile Remove="Sample\BarChart_Sample\BarChart_Sample\Form1.Designer.cs" />
+    <Compile Remove="Sample\BarChart_Sample\BarChart_Sample\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Remove="Sample\BarChart_Sample\BarChart_Sample\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Remove="Sample\BarChart_Sample\BarChart_Sample\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Remove="Sample\BarChart_Sample\BarChart_Sample\obj\Release\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Remove="Sample\BarChart_Sample\BarChart_Sample\obj\Release\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Remove="Sample\BarChart_Sample\BarChart_Sample\obj\Release\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Remove="Sample\BarChart_Sample\BarChart_Sample\Program.cs" />
+    <Compile Remove="Sample\BarChart_Sample\BarChart_Sample\Properties\AssemblyInfo.cs" />
+    <Compile Remove="Sample\BarChart_Sample\BarChart_Sample\Properties\Resources.Designer.cs" />
+    <Compile Remove="Sample\BarChart_Sample\BarChart_Sample\Properties\Settings.Designer.cs" />
+    <Compile Remove="WebForm\AssemblyInfo.cs" />
+    <Compile Remove="WebForm\ChartWebControl.cs" />
+    <Compile Remove="WebForm\Converters\MapAreaCoordinatesConverter.cs" />
+    <Compile Remove="WebForm\FxCopExclusionsByDesign.cs" />
+    <Compile Remove="WebForm\General\ChartHttpHandler.cs" />
+    <EmbeddedResource Remove="Sample\BarChart_Sample\BarChart_Sample\Form1.resx" />
+    <EmbeddedResource Remove="Sample\BarChart_Sample\BarChart_Sample\Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers" Version="0.2.236301">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="5.0.2" />
+    <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ITS\ITS.csproj" />
+    <ProjectReference Include="..\OrionX2.ConfigInfo\OrionX2.ConfigInfo.csproj" />
+    <ProjectReference Include="..\OrionX2\OrionX2.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+E:\NETF\SupportProjs\DLLs\net70-windows\Orion.DataVisualization.deps.json
+E:\NETF\SupportProjs\DLLs\net70-windows\Orion.DataVisualization.dll
+E:\NETF\SupportProjs\DLLs\net70-windows\Orion.DataVisualization.pdb
+E:\NETF\SupportProjs\Orion.DataVisualization\obj\DebugWeb\net70-windows\Orion.DataVisualization.csproj.AssemblyReference.cache
+E:\NETF\SupportProjs\Orion.DataVisualization\obj\DebugWeb\net70-windows\Orion.DataVisualization.Properties.Resources.resources
+E:\NETF\SupportProjs\Orion.DataVisualization\obj\DebugWeb\net70-windows\Orion.DataVisualization.csproj.GenerateResource.cache
+E:\NETF\SupportProjs\Orion.DataVisualization\obj\DebugWeb\net70-windows\Orion.DataVisualization.GeneratedMSBuildEditorConfig.editorconfig
+E:\NETF\SupportProjs\Orion.DataVisualization\obj\DebugWeb\net70-windows\Orion.DataVisualization.csproj.CoreCompileInputs.cache
+E:\NETF\SupportProjs\Orion.DataVisualization\obj\DebugWeb\net70-windows\Orion.DataVisualization.csproj.CopyComplete
+E:\NETF\SupportProjs\Orion.DataVisualization\obj\DebugWeb\net70-windows\Orion.DataVisualization.dll
+E:\NETF\SupportProjs\Orion.DataVisualization\obj\DebugWeb\net70-windows\refint\Orion.DataVisualization.dll
+E:\NETF\SupportProjs\Orion.DataVisualization\obj\DebugWeb\net70-windows\Orion.DataVisualization.pdb
+E:\NETF\SupportProjs\Orion.DataVisualization\obj\DebugWeb\net70-windows\ref\Orion.DataVisualization.dll

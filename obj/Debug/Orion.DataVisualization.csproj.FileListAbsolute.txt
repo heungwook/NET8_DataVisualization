@@ -1,0 +1,12 @@
+C:\DEV2022\DotNET\Build\Debug\Orion.DataVisualization.dll
+C:\DEV2022\DotNET\Build\Debug\Orion.DataVisualization.pdb
+C:\DEV2022\DotNET\SupportProjs\Orion.DataVisualization\obj\Debug\Orion.DataVisualization.csproj.AssemblyReference.cache
+C:\DEV2022\DotNET\SupportProjs\Orion.DataVisualization\obj\Debug\Orion.DataVisualization.Properties.Resources.resources
+C:\DEV2022\DotNET\SupportProjs\Orion.DataVisualization\obj\Debug\Orion.DataVisualization.csproj.GenerateResource.cache
+C:\DEV2022\DotNET\SupportProjs\Orion.DataVisualization\obj\Debug\Orion.DataVisualization.GeneratedMSBuildEditorConfig.editorconfig
+C:\DEV2022\DotNET\SupportProjs\Orion.DataVisualization\obj\Debug\Orion.DataVisualization.csproj.CoreCompileInputs.cache
+C:\DEV2022\DotNET\SupportProjs\Orion.DataVisualization\obj\Debug\Orion.DataVisualization.csproj.CopyComplete
+C:\DEV2022\DotNET\SupportProjs\Orion.DataVisualization\obj\Debug\Orion.DataVisualization.dll
+C:\DEV2022\DotNET\SupportProjs\Orion.DataVisualization\obj\Debug\Orion.DataVisualization.pdb
+C:\DEV2022\DotNET\Build\net48\Orion.DataVisualization.dll
+C:\DEV2022\DotNET\Build\net48\Orion.DataVisualization.pdb
